@@ -14,7 +14,7 @@ public class Main {
         int people = s.nextInt();
 
         //Calculated items
-        double tip = (bill * percentage);
+        double tip = (bill * percentage)/100.0;
         double totalBill = (bill + tip);
         double tipPerPerson = (tip / people);
         double totalPerPerson = (totalBill / people);
